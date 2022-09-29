@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+           <!--Primeira forma de usar o Javascript
+        Usar a tag <script>/<script> entre as tags
+        <head></head>
+        -->
+
+            <!--terceira forma de usar o Javascript
+        Usar a tag <script>/<script> entre as tags
+        <head></head> e fazer a referencia ao arquivo externo
+        -->
+        <script type="text/javascript"src=pagina></script>
+        <script type="text/javascript">
+        /* var n1;
+        var n2;
+        var soma; */
+    /*     n1 = prompt("Digite um número? ")
+        n2 = prompt("Digite outro número? ")
+        soma = parseInt (n1) + parseInt (n2)
+        //ParseInt para números inteiros
+        //PArseFloat para números reais
+        alert("a soma dos números é, "+ soma) */
+        </script>
+    
+    </head>
+    <body>
+        <h1 id="h1">Título H1</h1>
+        <h2 id="h2">Título H2</h2>
+        <button onclik="mudaCor()">Mudar a cor</button>
+
+       <!--  <button onclick="alert('Você apertou o botão')">Clique aqui</button> -->
+
+
+        <script>
+            var h1 = document.getElementById('h1').innerHTML
+            h1.style.color = 'red'
+            function mudaCor(){
+                var x = document.getElementById('h2')
+                x.style.color = 'gren'
+                x.style.textAlign ='right'
+
+
+            }
+        /* var n1;
+        var n2;
+        var soma;
+        n1 = prompt("Digite um número? ")
+        n2 = prompt("Digite outro número? ")
+        soma = parseInt (n1) + parseInt (n2)
+        alert("a soma dos números é, "+ soma) */
+
+        </script>
+    </body>
+
+
+</html>
